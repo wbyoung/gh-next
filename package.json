@@ -1,0 +1,36 @@
+{
+  "name": "gh-next",
+  "version": "0.0.0",
+  "description": "Move to next milestone",
+  "main": "index.js",
+  "bin": {
+    "gh-next": "bin/gh-next"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wbyoung/gh-next.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "next",
+    "milestone"
+  ],
+  "author": "Whitney Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbyoung/gh-next/issues"
+  },
+  "homepage": "https://github.com/wbyoung/gh-next",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "co": "^4.6.0",
+    "github": "^0.2.4",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "userhome": "^1.0.0"
+  }
+}

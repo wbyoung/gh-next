@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+'use strict';
+
+require('../').run(process.argv.slice(2)).catch(function(e) {
+  console.log('Fatal error: %s', e);
+  process.exit(1);
+});
